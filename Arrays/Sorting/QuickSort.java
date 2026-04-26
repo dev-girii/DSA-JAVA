@@ -32,9 +32,9 @@ public class QuickSort {
                 start++;
                 end--;
             }
-
-            quickSort(arr, low, end);
-            quickSort(arr, start, high);
         }
+        
+        quickSort(arr, low, end);
+        quickSort(arr, start, high);
     }
 }
